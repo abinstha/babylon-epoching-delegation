@@ -1,5 +1,5 @@
-
 ## Store WASM Contract
+
 ```bash
 babylond tx wasm store ./artifacts/babylon_epoching_lib.wasm \
   --from baby_wallet \
@@ -11,6 +11,7 @@ babylond tx wasm store ./artifacts/babylon_epoching_lib.wasm \
 ```
 
 ## Instantiate WASM Contract
+
 ```bash
 babylond tx wasm instantiate 353 '{}' \
   --from=baby_wallet \
@@ -25,6 +26,7 @@ babylond tx wasm instantiate 353 '{}' \
 ```
 
 ## Staking/Delegation
+
 ```bash
 babylond tx wasm execute bbn1qya74zsq3yc3xx0fxq6elwyj7xx3pv30heyc6kz9qt7rl3wjff0qhk4qhg \
   '{"delegate" : {}}' \
@@ -37,3 +39,4 @@ babylond tx wasm execute bbn1qya74zsq3yc3xx0fxq6elwyj7xx3pv30heyc6kz9qt7rl3wjff0
   --node=https://rpc-babylon-testnet.imperator.co
 ```
 
+You can find the error txn here: https://testnet.babylon.explorers.guru/transaction/1CDEB943BE9B5AAC987D6C816CBC81990C7C7EEBC00DDEEB06FB1BECEAD58D96?height=643990
